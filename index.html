@@ -11,6 +11,16 @@
         <div class="dropdown">
             <div class=dropdown-icon>▼</div>
             <div class=dropdown-content>
+                <label for="max-height">Max Height</label>
+                <input type="range" name="max-height" id="max-height" value="600" min="1" max="2000">
+                <label for="min-height">Min Height</label>
+                <input type="range" name="min-height" id="min-height" value="100" min="1" max="2000">
+                <label>Box Count</label>
+                <input type="range" name="box-count" id="box-count" value="5" min="1" max="125">
+                <label>Delta Angle</label>
+                <input type="range" name="delta-angle" id="delta-angle" value="0.1" min="0.001" max="1" step="any">
+                <label>WaveLength</label>
+                <input type="range" name="wavelength" id="wavelength" value="189" min="0.001" max="199" step="any">
                 <a class=link href="https://github.com/kermitpurple/spiral_polygon">Source</a>
             </div>
         </div>
