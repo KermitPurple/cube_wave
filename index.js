@@ -16,6 +16,7 @@ function setup(){
     let orthoSize = SIM_WIDTH * 3;
     ortho(-SIM_WIDTH, SIM_WIDTH, -SIM_WIDTH, SIM_WIDTH, -1000, 1000);
     maxD = dist(0,0, SIM_WIDTH, SIM_WIDTH);
+    normalMaterial();
 }
 
 function windowResized(){
